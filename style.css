@@ -1,0 +1,56 @@
+html{
+    background-image: url(img/deepfriedgreg.jpg);
+}
+header{
+    border: dashed 20px rgb(102, 255, 0);
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 120px;   
+    text-shadow: 5px 0px 0px yellow, 0px -5px 0px red;
+    color: rgb(255, 249, 254);
+    animation: 2s linear 0s infinite myScale;
+}
+h2{
+    border-bottom: solid black;
+    text-align: center;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+ul li{
+    display: inline;
+    
+}
+#nav a{
+    border: solid;
+    font-size: 150%;
+    background-color: rgb(243, 0, 0);
+    color: rgb(81, 255, 75);
+}
+button:hover{
+    background-color: salmon;
+}
+div.firstTextBox{
+    margin: 0px auto;
+    width: 800px;
+    
+}
+p{
+    border: solid black;
+    background-color: blue;
+    color: pink;
+    border-radius: 19px;
+}
+@keyframes myScale {
+    50%{transform: scale(.5,.10);}
+}
